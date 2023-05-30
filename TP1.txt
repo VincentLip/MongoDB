@@ -1,0 +1,20 @@
+/* global use, db */
+
+use('patient');
+
+// db.patient.insertMany([
+//   { 'firstname': 'Jean', 'lastname': 'Paul', 'age': 20, 'history': [{"desease" : "rhume" , "treatment" : "sirop"},{"desease" : "grippe" , "treatment" : "anti-biotique"}]},
+//   { 'firstname': 'Michel', 'lastname': 'Maurice', 'age': 25, 'history':[{"desease" : "rhume" , "treatment" : "sirop"},{"desease" : "grippe" , "treatment" : "anti-biotique"}]  },
+//   { 'firstname': 'Jacques', 'lastname': 'Jules', 'age': 30, 'history': [{"desease" : "angine" , "treatment" : "sirop"},{"desease" : "grippe" , "treatment" : "anti-biotique"}] },
+//   { 'firstname': 'Patrick', 'lastname': 'Gerard', 'age': 35, 'history':[{"desease" : "angine" , "treatment" : "sirop"},{"desease" : "grippe" , "treatment" : "anti-biotique"}] },
+ 
+// ])
+
+//db.patient.find();
+
+//db.patient.updateOne({firstname: "Jean"}, {$set: {firstname: "Edmond"}})
+
+//db.patient.find({age : {$gt:29}});
+
+
+//db.patient.deleteMany({"history.desease" : "rhume"});
