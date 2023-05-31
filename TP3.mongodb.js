@@ -1,5 +1,5 @@
 
-//use('livre');
+use('livre');
 
 //db.livre.find({type : "Book"});
 
@@ -9,10 +9,14 @@
 
 //db.livre.find({type : "Article",$and:[{authors : "Toru Ishida"}]});
 
+//db.livre.distinct("publisher")
+
 //db.livre.distinct("authors")
 
 
-use('info');
+
+
+//use('info');
 
 // db.info.insertMany([
 //     { nom: 'Macbook Pro', 
