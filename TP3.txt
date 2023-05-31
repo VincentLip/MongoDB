@@ -1,0 +1,12 @@
+
+use('livre');
+
+//db.livre.find({type : "Book"});
+
+//db.livre.find({type : "Article",$and:[{year : {$gt:2011}}]});
+
+//db.livre.find({type : "Book",$and:[{year : {$gt:2014}}]});
+
+//db.livre.find({type : "Article",$and:[{authors : "Toru Ishida"}]});
+
+//db.livre.distinct("authors")
