@@ -9,5 +9,4 @@ use('livre');
 
 //db.livre.aggregate({$match: {year : {$gt :2011}}},{$group: {_id : "$type" , count : {$sum:1} }});
 
-
-//db.livre.aggregate({$unwind: "$authors"},{$group: {_id: "$authors", count : {$sum:1}}},{$sort : {count :-1}});
+db.livre.aggregate({$unwind: "$authors"},{$group: {_id: "$authors", count : {$sum:1}}},{$sort : {count :-1}});
